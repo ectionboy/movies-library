@@ -1,0 +1,429 @@
+{
+    "page": 1,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/nrp2khEM6JWFqqNLeub1J6Qafe0.jpg",
+            "id": 866463,
+            "title": "Reptile",
+            "original_language": "en",
+            "original_title": "Reptile",
+            "overview": "Following the brutal murder of a young real estate agent, a hardened detective attempts to uncover the truth in a case where nothing is as it seems, and by doing so dismantles the illusions in his own life.",
+            "poster_path": "/soIgqZBoTiTgMqUW0JtxsPWAilQ.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                53,
+                80,
+                18,
+                9648
+            ],
+            "popularity": 106.191,
+            "release_date": "2023-09-29",
+            "video": false,
+            "vote_average": 7.3,
+            "vote_count": 38
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/xvzxqKWltnj6qSiWBXRq6ZCdcrw.jpg",
+            "id": 1151534,
+            "title": "Nowhere",
+            "original_language": "es",
+            "original_title": "Nowhere",
+            "overview": "A young pregnant woman named Mia escapes from a country at war by hiding in a maritime container aboard a cargo ship. After a violent storm, Mia gives birth to the child while lost at sea, where she must fight to survive.",
+            "poster_path": "/rpzFxv78UvYG5yQba2soO5mMl4T.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                53,
+                18
+            ],
+            "popularity": 101.763,
+            "release_date": "2023-09-29",
+            "video": false,
+            "vote_average": 7.642,
+            "vote_count": 95
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/ScaVfT5IkwVC3Edhmxqyl0GbK0.jpg",
+            "id": 205715,
+            "name": "Gen V",
+            "original_language": "en",
+            "original_name": "Gen V",
+            "overview": "At America's only college for superheroes, gifted students put their moral boundaries to the test, competing for the university's top ranking, and a chance to join The Seven, Vought International's elite superhero team. When the school's dark secrets come to light, they must decide what kind of heroes they want to become.",
+            "poster_path": "/uuot1N5AgZ7xRCKgm4ZCwOhgIJu.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                10765,
+                10759,
+                18
+            ],
+            "popularity": 291.794,
+            "first_air_date": "2023-09-28",
+            "vote_average": 7.865,
+            "vote_count": 37,
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/xFYpUmB01nswPgbzi8EOCT1ZYFu.jpg",
+            "id": 980489,
+            "title": "Gran Turismo",
+            "original_language": "en",
+            "original_title": "Gran Turismo",
+            "overview": "The ultimate wish-fulfillment tale of a teenage Gran Turismo player whose gaming skills won him a series of Nissan competitions to become an actual professional racecar driver.",
+            "poster_path": "/51tqzRtKMMZEYUpSYkrUE7v9ehm.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                28,
+                18,
+                12
+            ],
+            "popularity": 1914.709,
+            "release_date": "2023-08-09",
+            "video": false,
+            "vote_average": 8.029,
+            "vote_count": 643
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/7D15YH9zk4vR9FFoUeVkFJiVDlu.jpg",
+            "id": 575264,
+            "title": "Mission: Impossible - Dead Reckoning Part One",
+            "original_language": "en",
+            "original_title": "Mission: Impossible - Dead Reckoning Part One",
+            "overview": "Ethan Hunt and his IMF team embark on their most dangerous mission yet: To track down a terrifying new weapon that threatens all of humanity before it falls into the wrong hands. With control of the future and the world's fate at stake and dark forces from Ethan's past closing in, a deadly race around the globe begins. Confronted by a mysterious, all-powerful enemy, Ethan must consider that nothing can matter more than his mission—not even the lives of those he cares about most.",
+            "poster_path": "/NNxYkU70HPurnNCSiCjYAmacwm.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                28,
+                53
+            ],
+            "popularity": 401.083,
+            "release_date": "2023-07-08",
+            "video": false,
+            "vote_average": 7.738,
+            "vote_count": 1173
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/dS4JR8gmj8UnamjuLEyAkEFoppy.jpg",
+            "id": 923939,
+            "title": "The Wonderful Story of Henry Sugar",
+            "original_language": "en",
+            "original_title": "The Wonderful Story of Henry Sugar",
+            "overview": "A rich man learns about a guru who can see without using his eyes. He sets out to master the skill in order to cheat at gambling.",
+            "poster_path": "/A4LTXT8MMZIr4aIwhE4qbGFivBo.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                14,
+                35,
+                12
+            ],
+            "popularity": 135.005,
+            "release_date": "2023-09-20",
+            "video": false,
+            "vote_average": 7.5,
+            "vote_count": 161
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/nV4nOG6ZCK8orRL7T5wXXgMdM0N.jpg",
+            "id": 1059811,
+            "title": "Flora and Son",
+            "original_language": "en",
+            "original_title": "Flora and Son",
+            "overview": "Single mum Flora is at a loss about what to do with her rebellious teenage son, Max. Her efforts to keep him out of trouble lead to a beat-up acoustic guitar, a washed-up LA musician, and harmony for this frayed Dublin family.",
+            "poster_path": "/pq2p8ovf8PZps2HafvJaLrZK8gS.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                10402,
+                35,
+                18
+            ],
+            "popularity": 44.486,
+            "release_date": "2023-09-21",
+            "video": false,
+            "vote_average": 7.389,
+            "vote_count": 18
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/9b3uxqcjkmay20EBZZj1KVow0r5.jpg",
+            "id": 951491,
+            "title": "Saw X",
+            "original_language": "en",
+            "original_title": "Saw X",
+            "overview": "Between the events of 'Saw' and 'Saw II', a sick and desperate John Kramer travels to Mexico for a risky and experimental medical procedure in hopes of a miracle cure for his cancer, only to discover the entire operation is a scam to defraud the most vulnerable. Armed with a newfound purpose, the infamous serial killer returns to his work, turning the tables on the con artists in his signature visceral way through devious, deranged, and ingenious traps.",
+            "poster_path": "/aQPeznSu7XDTrrdCtT5eLiu52Yu.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                80,
+                27,
+                53
+            ],
+            "popularity": 678.548,
+            "release_date": "2023-09-26",
+            "video": false,
+            "vote_average": 7.256,
+            "vote_count": 45
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/4DxHcIQfw3ungfQVqupJ8K62M3d.jpg",
+            "id": 72710,
+            "name": "The Continental: From the World of John Wick",
+            "original_language": "en",
+            "original_name": "The Continental: From the World of John Wick",
+            "overview": "Winston Scott is roped into a world of assassins and must make things right after his brother's attack on the Continental hotel.",
+            "poster_path": "/v1YEOdGptCyNxnc4mJSYNd4cE8E.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                80,
+                10759
+            ],
+            "popularity": 1200.046,
+            "first_air_date": "2023-09-22",
+            "vote_average": 8.159,
+            "vote_count": 91,
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/iQcCAm8hKWZyUntqrvzyEGtXyJl.jpg",
+            "id": 670292,
+            "title": "The Creator",
+            "original_language": "en",
+            "original_title": "The Creator",
+            "overview": "Amid a future war between the human race and the forces of artificial intelligence, a hardened ex-special forces agent grieving the disappearance of his wife, is recruited to hunt down and kill the Creator, the elusive architect of advanced AI who has developed a mysterious weapon with the power to end the war—and mankind itself.",
+            "poster_path": "/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                878,
+                28,
+                53
+            ],
+            "popularity": 496.806,
+            "release_date": "2023-09-27",
+            "video": false,
+            "vote_average": 7.406,
+            "vote_count": 112
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/1syW9SNna38rSl9fnXwc9fP7POW.jpg",
+            "id": 565770,
+            "title": "Blue Beetle",
+            "original_language": "en",
+            "original_title": "Blue Beetle",
+            "overview": "Recent college grad Jaime Reyes returns home full of aspirations for his future, only to find that home is not quite as he left it. As he searches to find his purpose in the world, fate intervenes when Jaime unexpectedly finds himself in possession of an ancient relic of alien biotechnology: the Scarab.",
+            "poster_path": "/mXLOHHc1Zeuwsl4xYKjKh2280oL.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                28,
+                878,
+                12
+            ],
+            "popularity": 2994.357,
+            "release_date": "2023-08-16",
+            "video": false,
+            "vote_average": 7.1,
+            "vote_count": 1036
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/1swj9HxDkjzsO3yHlSwRA38hMFN.jpg",
+            "id": 123548,
+            "name": "Castlevania: Nocturne",
+            "original_language": "en",
+            "original_name": "Castlevania: Nocturne",
+            "overview": "In the thick of the French Revolution, members of the so-called lower classes are rising up to fight inequality. Meanwhile, Richter Belmont senses a far grimmer and greater danger. He's picked up his family's long-held tradition of vampire hunting, a vocation that goes back almost as long as a vampiric life span (in other words, forever) but he's never seen anything quite like what he's witnessing now.",
+            "poster_path": "/tslJx5LPn2aXX3USGYbh0KbglnB.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                16,
+                10765,
+                18
+            ],
+            "popularity": 167.629,
+            "first_air_date": "2023-09-28",
+            "vote_average": 9.304,
+            "vote_count": 23,
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/aQuzqump4Zjh2bCoymZ2POLlNYt.jpg",
+            "id": 1172674,
+            "title": "The Rat Catcher",
+            "original_language": "en",
+            "original_title": "The Rat Catcher",
+            "overview": "In an English village, a reporter and a mechanic listen to a ratcatcher explain his clever plan to outwit his prey.",
+            "poster_path": "/l48reuo7EsbToD7yTaBChuDgHzf.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                35,
+                27
+            ],
+            "popularity": 78.053,
+            "release_date": "2023-09-29",
+            "video": false,
+            "vote_average": 7,
+            "vote_count": 31
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/9Rja4gDzW8HPKGuLg3RK2Sd2h6a.jpg",
+            "id": 1172676,
+            "title": "Poison",
+            "original_language": "en",
+            "original_title": "Poison",
+            "overview": "When a poisonous snake slithers onto an Englishman's stomach in India, his associate and a doctor race to save him.",
+            "poster_path": "/evgEvYCUGidCyUCxA77EUJiWpVQ.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                35,
+                53
+            ],
+            "popularity": 54.59,
+            "release_date": "2023-09-30",
+            "video": false,
+            "vote_average": 7.4,
+            "vote_count": 23
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/efro4duB7agkA2Xl5LmkD3HeCim.jpg",
+            "id": 818511,
+            "title": "Overhaul",
+            "original_language": "pt",
+            "original_title": "Carga Máxima",
+            "overview": "When truck racer Roger loses everything, he receives a tempting but dangerous offer: to work as the getaway driver for a gang of thieves.",
+            "poster_path": "/4Q56IatK3JDRkYWXTs29vp7RECZ.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                28,
+                53,
+                18
+            ],
+            "popularity": 105.095,
+            "release_date": "2023-09-27",
+            "video": false,
+            "vote_average": 7.059,
+            "vote_count": 34
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/zYlgqIpqJ1VAbvFhRhktAzIybVs.jpg",
+            "id": 820609,
+            "title": "No One Will Save You",
+            "original_language": "en",
+            "original_title": "No One Will Save You",
+            "overview": "An exiled anxiety-ridden homebody must battle an alien who's found its way into her home.",
+            "poster_path": "/ehGIDAMaYy6Eg0o8ga0oqflDjqW.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                27,
+                878,
+                53
+            ],
+            "popularity": 961.212,
+            "release_date": "2023-09-22",
+            "video": false,
+            "vote_average": 6.901,
+            "vote_count": 340
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/96RT2A47UdzWlUfvIERFyBsLhL2.jpg",
+            "id": 209867,
+            "name": "Frieren: Beyond Journey's End",
+            "original_language": "ja",
+            "original_name": "葬送のフリーレン",
+            "overview": "After the party of heroes defeated the Demon King, they restored peace to the land and returned to lives of solitude. Generations pass, and the elven mage Frieren comes face to face with humanity’s mortality. She takes on a new apprentice and promises to fulfill old friends’ dying wishes. Can an elven mind make peace with the nature of life and death? Frieren embarks on her quest to find out.",
+            "poster_path": "/dqZENchTd7lp5zht7BdlqM7RBhD.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                16,
+                18,
+                10759,
+                10765
+            ],
+            "popularity": 89.029,
+            "first_air_date": "2023-09-29",
+            "vote_average": 10,
+            "vote_count": 1,
+            "origin_country": [
+                "JP"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/wcEGMvOzCPjPABa4jbTDF2UOx53.jpg",
+            "id": 937249,
+            "title": "57 Seconds",
+            "original_language": "en",
+            "original_title": "57 Seconds",
+            "overview": "When a tech blogger lands an interview with a tech guru and stops an attack on him, he finds a mysterious ring that takes him back 57 seconds into the past.",
+            "poster_path": "/dfS5qHWFuXyZQnwYREwb7N4qU5p.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                53,
+                878
+            ],
+            "popularity": 48.79,
+            "release_date": "2023-09-29",
+            "video": false,
+            "vote_average": 6.857,
+            "vote_count": 7
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/kZvYVhYYVL4MxLbDeBo9QJd0LRh.jpg",
+            "id": 1167725,
+            "title": "Love Is in the Air",
+            "original_language": "en",
+            "original_title": "Love Is in the Air",
+            "overview": "A fiercely independent pilot fighting to keep her family business afloat starts to fall for the man sent by corporate to ground her operation forever.",
+            "poster_path": "/cAn1tvopkqATQ0AfV4LK08ReAvp.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                10749,
+                35,
+                18
+            ],
+            "popularity": 102.36,
+            "release_date": "2023-09-28",
+            "video": false,
+            "vote_average": 6.045,
+            "vote_count": 22
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/AufeiM2SZhXNtNmKmh8UT3OyJmr.jpg",
+            "id": 1172675,
+            "title": "The Swan",
+            "original_language": "en",
+            "original_title": "The Swan",
+            "overview": "Two large, ignorant bullies ruthlessly pursue a small, brilliant boy in this young adult Roald Dahl short story.",
+            "poster_path": "/fRbx6DPdQBJrhZWyshjJABtAIyu.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                18
+            ],
+            "popularity": 109.801,
+            "release_date": "2023-09-28",
+            "video": false,
+            "vote_average": 7.066,
+            "vote_count": 38
+        }
+    ],
+    "total_pages": 1000,
+    "total_results": 20000
+}
