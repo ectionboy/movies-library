@@ -1,8 +1,44 @@
-import React from 'react'
+import { creditsMovies } from 'API/getData'
+import React, { useEffect, useState } from 'react'
+import { useLocation } from 'react-router-dom';
+import  noImageAvailable from 'images/No-image-available.png'
 
 const Cast = () => {
+  const location = useLocation();
+  const [credits, setCredits] = useState(null)
+  useEffect(() => {
+    const fetchCreditsMovies = async (item) => {
+        try {
+          let data = null
+          setCredits(null)
+          data = await creditsMovies(item)
+          if (data) {
+            setCredits(data.cast)
+          }
+    
+        } catch (error) {
+          // setError(error.response.data)
+        } finally {
+        }
+      }
+    
+      fetchCreditsMovies(location.state.id)
+    
+    }, [ location.state.id])
+    //  console.log(credits)
+
   return (
-    <div>Cast</div>
+    <div>
+      <ul>
+        {credits && credits.map((el) =>(
+          <li key={el.id}>
+            <img src={(el.profile_path)?`https://image.tmdb.org/t/p/w500${el.profile_path}`: noImageAvailable} alt="actor" width='100px' height='150px' />
+            <h3>{el.name}</h3>
+            <p>Character: {el.character}</p>
+          </li>
+        ))}
+      </ul>
+    </div>
   )
 }
 
