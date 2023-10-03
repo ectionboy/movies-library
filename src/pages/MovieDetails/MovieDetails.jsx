@@ -3,13 +3,22 @@ import React, { useEffect, useState } from 'react';
 import { Link, Outlet, useLocation } from 'react-router-dom';
 import noImageAvailable from 'images/No-image-available.png';
 
+import {
+  AdditionalList,
+  Container,
+  GenresList,
+  MovieImg,
+  MovieWrap,
+} from './MovieDetails.styled';
+
 const MovieDetails = () => {
   const location = useLocation();
   const [movie, setMovie] = useState({});
-
+  const [isLoading, setIsLoading] = useState(false);
   useEffect(() => {
     const fetchDetailsMovies = async item => {
       try {
+        setIsLoading(true);
         let data = null;
         setMovie({});
         data = await detailsMovies(item);
@@ -17,8 +26,10 @@ const MovieDetails = () => {
           setMovie(data);
         }
       } catch (error) {
-        // setError(error.response.data)
+        // setError(error)
+        setIsLoading(false);
       } finally {
+        setIsLoading(false);
       }
     };
 
@@ -29,38 +40,51 @@ const MovieDetails = () => {
   // console.log(location)
   // console.log(location.state.from)
   return (
-    <>
-      <Link to={location.state.from}> Go back</Link>
+    <Container>
+      {isLoading && (
+        <>
+          <h2>Loading...</h2>
+        </>
+      )}
+      <Link className="link" to={location.state.from}>
+        {' '}
+        Go back
+      </Link>
       <div>
-        <img
-          src={
-            movie.poster_path
-              ? `https://image.tmdb.org/t/p/w500${movie.poster_path}`
-              : noImageAvailable
-          }
-          alt="poster"
-          width="100px"
-          height="200px"
-        />
-        <h2>{movie.title}</h2>
-        <p>User score {Math.round(movie.vote_average * 10)}%</p>
-        <h3>Overview</h3>
-        <p>{movie.overview}</p>
-        <h4>Genres</h4>
-        <ul>
+        <MovieWrap>
+          <MovieImg
+            src={
+              movie.poster_path
+                ? `https://image.tmdb.org/t/p/w500${movie.poster_path}`
+                : noImageAvailable
+            }
+            alt="poster"
+            width="100px"
+            height="200px"
+          />
+          <div>
+            <h2>{movie.title}</h2>
+            <p>User score {Math.round(movie.vote_average * 10)}%</p>
+            <h3>Overview</h3>
+            <p>{movie.overview}</p>
+          </div>
+        </MovieWrap>
+        <h3>Genres</h3>
+        <GenresList>
           {movie.genres &&
             movie.genres.map(el => (
               <li key={el.id}>
                 <p>{el.name}</p>
               </li>
             ))}
-        </ul>
+        </GenresList>
       </div>
       <div>
         <h3>Additional information</h3>
-        <ul>
+        <AdditionalList>
           <li>
             <Link
+              className="link"
               to="cast"
               state={{ id: location.state.id, from: location.state.from }}
             >
@@ -69,16 +93,17 @@ const MovieDetails = () => {
           </li>
           <li>
             <Link
+              className="link"
               to="reviews"
               state={{ id: location.state.id, from: location.state.from }}
             >
               Reviews
             </Link>
           </li>
-        </ul>
+        </AdditionalList>
       </div>
       <Outlet />
-    </>
+    </Container>
   );
 };
 
