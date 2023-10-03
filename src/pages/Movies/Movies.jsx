@@ -1,21 +1,24 @@
 import { MoviesList } from 'components/MoviesList/MoviesList';
 import { searchMovies } from 'API/getData';
-import React, { useCallback, useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 //import { Link } from 'react-router-dom';
 
 const Movies = () => {
 const [queryData, setQueryData] = useState(null)
+const [handleQuery, setHandleQuery] = useState(null)
+
 const [searchParams, setSearchParams] = useSearchParams()
 
 const query = searchParams.get('search')
+const ref = useRef(query)
 
 const handleChange = ({ target: { value } }) => {
   value ? setSearchParams({ search: value }) : setSearchParams({})
 }
 const formSubmit = (e) => {
   e.preventDefault()
-
+  setHandleQuery(query)
   }
 
 
@@ -30,10 +33,15 @@ const formSubmit = (e) => {
   	} finally {
   	}
   }, [])
+  useEffect(() => {
+    handleQuery&& fetchSearchMovies(handleQuery)
+  
+  }, [fetchSearchMovies, handleQuery])
+  
 useEffect(() => {
-  fetchSearchMovies(query)
+  ref.current && fetchSearchMovies(ref.current)
 
-}, [fetchSearchMovies, query])
+}, [fetchSearchMovies,])
 
 
   return (
