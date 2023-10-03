@@ -23,7 +23,7 @@ const Reviews = () => {
       fetchReviewsMovies(location.state.id)
     
     }, [ location.state.id])
-      console.log(reviews)
+    //  console.log(reviews)
 
 
 

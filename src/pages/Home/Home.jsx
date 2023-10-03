@@ -51,7 +51,7 @@ useEffect(() => {
   return (
     <div>
       Home
-      <MoviesList data={trends} />
+      {trends && <MoviesList data={trends} />}
     </div>
   );
 };
