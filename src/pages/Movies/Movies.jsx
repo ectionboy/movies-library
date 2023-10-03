@@ -26,7 +26,7 @@ const formSubmit = (e) => {
   	try {
   		 //setQueryData({})
   		const data = await searchMovies(searchText)
-      console.log(data)
+      // console.log(data)
       setQueryData(data.results)
   	} catch (error) {
   		// setError(error.response.data)
@@ -47,7 +47,7 @@ useEffect(() => {
   return (
     <>
 <div>
-        Movies
+        
         <form 
         onSubmit={formSubmit}
         >

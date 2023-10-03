@@ -50,7 +50,6 @@ useEffect(() => {
  // console.log(trends)
   return (
     <div>
-      Home
       {trends && <MoviesList data={trends} />}
     </div>
   );
