@@ -3,13 +3,16 @@ import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import noImageAvailable from 'images/No-image-available.png';
 import { CastList } from './Cast.styles';
+import { Oval } from 'react-loader-spinner';
 
 const Cast = () => {
   const location = useLocation();
+  const [isLoading, setIsLoading] = useState(false);
   const [credits, setCredits] = useState(null);
   useEffect(() => {
     const fetchCreditsMovies = async item => {
       try {
+        setIsLoading(true);
         let data = null;
         setCredits(null);
         data = await creditsMovies(item);
@@ -18,7 +21,9 @@ const Cast = () => {
         }
       } catch (error) {
         // setError(error.response.data)
+        setIsLoading(false);
       } finally {
+        setIsLoading(false);
       }
     };
 
@@ -28,6 +33,21 @@ const Cast = () => {
 
   return (
     <div>
+      {isLoading && (
+        <Oval
+        height={80}
+        width={80}
+        color="#4fa94d"
+        wrapperStyle={{}}
+        wrapperClass="loader"
+        visible={true}
+        ariaLabel='oval-loading'
+        secondaryColor="#4fa94d"
+        strokeWidth={2}
+        strokeWidthSecondary={2}
+      
+      />
+      )}
       <CastList>
         {credits &&
           credits.map(el => (

@@ -2,6 +2,7 @@ import { styled } from 'styled-components';
 
 export const Container = styled.div`
 display: flex;
+
 flex-direction: column;
 gap: 8px;
   margin: 0 auto;
@@ -51,6 +52,7 @@ color: #000;
 export const MovieWrap= styled.div`
 display: flex;
 gap: 16px;
+margin-top: 14px;
 `;
 
 export const MovieImg = styled.img`

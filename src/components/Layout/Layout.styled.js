@@ -48,4 +48,10 @@ export const Main = styled.main`
 background-color: #d2d2f5;
 min-height: 300px;
 padding: 8px 0;
+
+.loader{
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+}
 `;
